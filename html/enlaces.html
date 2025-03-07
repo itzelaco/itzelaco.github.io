@@ -1,0 +1,159 @@
+<html>
+    <head>
+        <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    
+  />
+        <title>Enlaces en HTML</title>
+        <style type="text/css">
+            @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Oswald:wght@200..700&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+            *{
+                padding: 0;
+                margin: 0
+                
+            }
+            header,nav,main,footer{
+                    width: 1200px;
+                    padding: 30px;
+                    background-color: firebrick;
+                    color: bisque;
+                    margin-left: auto;
+                    margin-right: auto;
+            }
+            header{
+                    height: 100px;
+            }
+            nav{
+                height: 50px;
+                background-color: darksalmon;
+            }
+            nav ul{
+                text-align: center;
+            }
+            nav ul li{
+                list-style-type: none;
+                width: 10%;
+                height: 30px;
+                background-color: brown;
+                display: inline-block;
+                padding: 10px;
+            }
+            nav ul li a{
+                text-decoration: none;
+            }
+            main{
+                height: auto;
+                background-color: antiquewhite;
+                color: firebrick;
+            }
+            section{
+                width: 70%;
+                height: 170px;
+                background-color: darksalmon;
+                margin-bottom: 30px;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 30px;
+                overflow-y: scroll;
+                font-family: "Montserrat", serif;
+                font-size: 14px;
+                
+            }
+            header,footer{
+                text-align: center;
+                a{
+                    /*text-decoration: none;*/
+                }
+            }
+            a:link{
+                color: lemonchiffon; 
+            }
+            a:visited{
+               color: greenyellow;
+                
+            }
+            a:active{
+                color: darkslategrey;
+            }
+            a:hover{
+                color: dodgerblue
+            }
+            h2{
+                margin-bottom: 30px;
+            }
+            p{
+                color: beige;
+            }
+            /*Este bloque de codigo modifica los estados de enlaces para el menú*/
+            nav ul li a{
+                color: bisque;
+                text-decoration:none
+            }
+          
+            nav ul li : hover{
+                background-color: bisque;
+                width: 12%;
+                
+            }
+            nav ul li a: hover{
+                color: firebrick
+                
+            }
+            .navegador{
+                font-family: "Montserrat", serif;
+                font-size: 18px;
+            }
+            h1{
+                font-size: 48px;
+                font-family: "Oswald", serif;
+            }
+            h2{
+               font-family: "Montserrat", serif;
+                font-size: 16px; 
+            }
+            #home{
+                width: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 class="animate__animated animate__flipInY">ENLACES EN HTML</h1><a href="../index.html"><img id="home" src="../images/casa.png"></a>
+        </header>
+        <nav>
+            <ul class="navegador">
+                <li><a href="formatos.html">Fomatos</a></li>
+                <li><a href="listas.htm">Listas</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="imagenes.html">Imágenes</a></li>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2 class="animate__animated animate__zoomInUp animate__delay-1s">Enlaces externos</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a feugiat urna. Morbi in rhoncus urna. Aenean tortor metus, facilisis in nunc sed, dapibus tempus elit. Aenean sem leo, pharetra sit amet pellentesque vitae, hendrerit vitae nulla. Etiam vehicula pharetra pretium. <a href= "http://www.buap.mx">Benemérita Universidad Autónoma de Puebla </a> Aenean sit amet tincidunt nunc.<a href="https://www.udg.mx"target="_blank">Universidad de Guadalajara</a> Nulla id velit at nibh blandit rhoncus nec eget mi.</p>
+            </section>
+            <section>
+                <h2 class="animate__animated animate__zoomInUp animate__delay-2s"> Enlaces externos </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a feugiat urna. <a href="formatos.html">práctica de formato de textos</a> Morbi in rhoncus urna. <a href="listas.htm">Práctica de listas</a>Aenean tortor metus, facilisis in nunc sed, dapibus tempus elit. Aenean sem leo, pharetra sit amet pellentesque vitae, hendrerit vitae nulla. Etiam vehicula pharetra pretium. Aenean sit amet tincidunt nunc. Nulla id velit at nibh blandit rhoncus nec eget mi.</p>
+            </section>
+            <section>
+                <h2 class="animate__animated animate__zoomInUp animate__delay-3s"> Enlaces a archivos </h2>  
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a feugiat urna. <a href="codigo de prácticas.pdf"target="_blank">Codigo de prácticas</a> Morbi in rhoncus urna. Aenean tortor metus, facilisis in nunc sed, dapibus tempus elit. Aenean sem leo, pharetra sit amet pellentesque vitae, hendrerit vitae nulla. Etiam vehicula pharetra pretium. Aenean sit amet tincidunt nunc. Nulla id velit at nibh blandit rhoncus nec eget mi.</p>
+            </section>
+            <section>
+                <h2 class="animate__animated animate__zoomInUp animate__delay-4s">Enlcaes con descarga de archivo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a feugiat urna. <a href="BloqueoFABUAP.png" download>Vista de navegador práctica de formatos</a>Morbi in rhoncus urna. Aenean tortor metus, facilisis in nunc sed, dapibus tempus elit. Aenean sem leo, pharetra sit amet pellentesque vitae, hendrerit vitae nulla. <a href="https://www.ebay.com">Ebay</a>Ebay Etiam vehicula pharetra pretium. Aenean sit amet tincidunt nunc. Nulla id velit at nibh blandit rhoncus nec eget mi.</p>
+            </section>
+        </main>
+        <footer>
+            <h6>Elaborado por Itzel G. Aco</h6>
+        </footer>
+    </body>
+</html>

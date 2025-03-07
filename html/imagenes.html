@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <title>Imágenes en html </title>
+        <link rel="stylesheet" href="../css/estilos.css" type="text/css">
+        <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+          <style>
+              section{
+                  text-align: center;
+              }
+              img{
+                  width: 25%;
+                  min-width: 300px;
+                  display: inline-block;
+                  margin-left: 20px;
+                  margin-right: 20px;
+              }
+              #home{
+                  width: 40px;
+                  min-width: 40px;
+              }
+              p,h2{
+                  text-align: justify;
+              }
+              #img_gray{
+                  filter: grayscale(100%);
+              }
+              #img_brillo{
+                  filter: brightness(150%);
+              }
+              #img_contraste{
+                  filter: contrast(150%);
+              }
+              #img_invertido{
+                  filter: invert(150%);
+              }
+              #img_opacidad{
+                  filter: opacity(150%);
+              }
+              #img_saturacion{
+                  filter: saturate(150%);
+              }
+              #img_sepia{
+                  filter: sepia(150%);
+              }
+              #img_blur{
+                  filter: blur(10px);
+              }
+              #img_huerotate{
+                  filter: hue-rotate(150deg);
+              }
+              #img_sombra{
+                  filter: drop-shadow(10px 10px 10px grey)
+              }
+              #img_combinado{
+                  filter: grayscale(100%) sepia(50%) hue-rotate(30deg);
+              }
+              
+              
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 class="animate__animated animate__flipInY">IMÁGENES EN HTML</h1><a href="../index.html"><img id="home" src="../images/casa.png" width="40px"></a>
+        </header>
+        <nav>
+        <ul>
+                <li><a href="formatos.html">Fomatos</a></li>
+                <li><a href="listas.htm">Listas</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="imagenes.html">Imágenes</a></li>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+        <section>
+                <h2 style="color: aliceblue;font-size: 28px; font-weight: bold">Imágenes</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lorem dolor, suscipit sit amet eros non, tempor pellentesque est. Maecenas eu massa a turpis efficitur tincidunt sed posuere ligula. Suspendisse potenti. Donec sollicitudin commodo justo, id tempor dui commodo sed. Duis interdum finibus augue vitae placerat. Nulla tristique pharetra sem, ut auctor neque feugiat non. Sed egestas porttitor est, eu placerat velit semper id.</p>
+                <img class="animate__animated animate__fadeInDown animate__delay-2s" src="../images/valentines_day.jpg" alt="valentine´s day">
+            
+            </section>
+            <section>
+                <h2 style="color: aliceblue;font-size: 28px; font-weight: bold">Gif en loop</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lorem dolor, suscipit sit amet eros non, tempor pellentesque est. Maecenas eu massa a turpis efficitur tincidunt sed posuere ligula. Suspendisse potenti. Donec sollicitudin commodo justo, id tempor dui commodo sed. Duis interdum finibus augue vitae placerat. Nulla tristique pharetra sem, ut auctor neque feugiat non. Sed egestas porttitor est, eu placerat velit semper id.</p>
+                <img id="imagen_animada" src="../images/come_galletas.gif" alt="comegalletas">         
+            </section>
+            <section>
+                <h2 style="color: aliceblue;font-size: 28px; font-weight: bold">Png con hipervínvulo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lorem dolor, suscipit sit amet eros non, tempor pellentesque est. Maecenas eu massa a turpis efficitur tincidunt sed posuere ligula. Suspendisse potenti. Donec sollicitudin commodo justo, id tempor dui commodo sed. Duis interdum finibus augue vitae placerat. Nulla tristique pharetra sem, ut auctor neque feugiat non. Sed egestas porttitor est, eu placerat velit semper id.</p>
+                <a href="https://www.britannica.com/topic/Valentines-Day"><img class="animate__animated animate__tada  animate__infinite" id="imagen_ico" src="../images/corazon.png.png" alt="corazón" target="_blank"></a>
+            </section>
+            <section>
+                <h2 style="color: aliceblue;font-size: 28px; font-weight: bold">Imágenes flotantes</h2>
+                <p> <img class="img_flotantes" id="img_left" src="../images/ventana.jpg"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lorem dolor, suscipit sit amet eros non, tempor pellentesque est. Maecenas eu massa a turpis efficitur tincidunt sed posuere ligula. Suspendisse potenti. Donec sollicitudin commodo justo, id tempor dui commodo sed. Duis interdum finibus augue vitae placerat. Nulla tristique pharetra sem, ut auctor neque feugiat non. Sed egestas porttitor est, eu placerat velit semper id.</p>
+                <p><img class="img_flotantes"  id="img_right" src="../images/happy.jpg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lorem dolor, suscipit sit amet eros non, tempor pellentesque est. Maecenas eu massa a turpis efficitur tincidunt sed posuere ligula. Suspendisse potenti. Donec sollicitudin commodo justo, id tempor dui commodo sed. Duis interdum finibus augue vitae placerat. Nulla tristique pharetra sem, ut auctor neque feugiat non. Sed egestas porttitor est, eu placerat velit semper id.</p>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lorem dolor, suscipit sit amet eros non, tempor pellentesque est. Maecenas eu massa a turpis efficitur tincidunt sed posuere ligula. Suspendisse potenti. Donec sollicitudin commodo justo, id tempor dui commodo sed. Duis interdum finibus augue vitae placerat. Nulla tristique pharetra sem, ut auctor neque feugiat non. Sed egestas porttitor est, eu placerat velit semper id.</p>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lorem dolor, suscipit sit amet eros non, tempor pellentesque est. Maecenas eu massa a turpis efficitur tincidunt sed posuere ligula. Suspendisse potenti. Donec sollicitudin commodo justo, id tempor dui commodo sed. Duis interdum finibus augue vitae placerat. Nulla tristique pharetra sem, ut auctor neque feugiat non. Sed egestas porttitor est, eu placerat velit semper id.</p>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lorem dolor, suscipit sit amet eros non, tempor pellentesque est. Maecenas eu massa a turpis efficitur tincidunt sed posuere ligula. Suspendisse potenti. Donec sollicitudin commodo justo, id tempor dui commodo sed. Duis interdum finibus augue vitae placerat. Nulla tristique pharetra sem, ut auctor neque feugiat non. Sed egestas porttitor est, eu placerat velit semper id.</p>
+            </section>
+            <section id="fondo_imagen">
+                <h2 style="color: aliceblue;font-size: 28px; font-weight: bold">Imagen como fondo o background</h2>
+                <p class="parrafo_fondo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, iste, dolor? Quis, praesentium nisi temporibus accusantium quos cumque nobis exercitationem atque qui quam ut nemo ea, veniam, animi repellat alias molestiae. Ad assumenda deleniti voluptatem quae ea quibusdam cupiditate debitis molestias libero voluptates quam veniam quo, explicabo voluptate, a commodi minus quas possimus perspiciatis ab! Perspiciatis optio esse magnam nihil saepe, molestias deserunt tempora pariatur itaque facere praesentium. Architecto fugiat recusandae eos facilis molestiae consectetur officia dolorum necessitatibus ratione atque, ex harum mollitia nisi nesciunt explicabo aut vero illo illum amet fugit velit deleniti? Cupiditate illo ea, consectetur animi debitis?</p>
+                <p class="parrafo_fondo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum necessitatibus molestias repellat reiciendis qui. Saepe quis, sed reprehenderit dolores minima soluta cum earum beatae unde similique iusto recusandae numquam magnam quibusdam harum, in qui impedit, nihil accusamus eos asperiores libero, nemo. Veniam odit eveniet asperiores, unde nam ullam distinctio alias incidunt ab velit sed eius neque dolor adipisci odio rem, deserunt dignissimos, provident non. Amet iste modi laudantium culpa alias obcaecati reiciendis, repudiandae illo dicta officiis reprehenderit maiores libero voluptatem, optio, architecto debitis odio facere maxime unde quasi quaerat. Repellendus in tempora illum illo dolorum rerum fugit aut assumenda doloribus.</p>
+                <p class="parrafo_fondo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quis tempore necessitatibus beatae odit eos ab alias veniam vel cupiditate iste aut illo quibusdam, fuga ex voluptatem a cum corporis. Aliquid doloribus aliquam sit fugit odio cum consequuntur, inventore iusto tenetur neque consequatur, cumque ullam, quod ducimus in, praesentium autem adipisci sunt odit quis? Cumque voluptate nihil saepe dolores earum id, assumenda ab aut vel deleniti odio! Deleniti iure similique qui neque obcaecati eius repellendus praesentium! Tenetur accusantium, modi eaque. Tempora quas magni laudantium dolorum soluta dignissimos voluptas nesciunt assumenda, totam perspiciatis veritatis rerum quibusdam praesentium esse. Nobis, animi, natus.</p>
+            </section>
+               <section>
+                <h2 style="color: aliceblue;font-size: 28px; font-weight: bold">Imagen con filtro</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque expedita magni voluptatum omnis sed, porro error soluta ullam ea. Cupiditate, quis itaque. Quaerat ex perspiciatis adipisci, tenetur eaque optio dolorum nobis illo, sunt illum, dignissimos possimus deleniti quae quisquam provident autem, at veniam quod distinctio deserunt nihil ipsa consectetur modi sed repudiandae! Dolores temporibus a iste rem debitis quibusdam cumque, dolorem esse vero excepturi culpa voluptate magni minima odio illo ut error! Porro, unde! Provident eligendi corporis, nobis sequi cupiditate reiciendis quos, voluptate dolores nisi incidunt cumque, voluptatum enim veritatis odit ullam quod aut laboriosam molestias autem consequatur adipisci aliquam?</p>
+                <img src="../images/nina.jpg">
+                <img id="img_gray" src="../images/nina.jpg">
+                <img id="img_brillo" src="../images/nina.jpg">
+                <img id="img_contraste" src="../images/nina.jpg">
+                <img id="img_invertido" src="../images/nina.jpg">
+                <img id="img_opacidad" src="../images/nina.jpg">
+                <img id="img_saturacion" src="../images/nina.jpg">
+                <img id="img_sepia" src="../images/nina.jpg">
+                <img id="img_blur" src="../images/nina.jpg">
+                <img id="img_huerotate" src="../images/nina.jpg">
+                <img id="img_sombra" src="../images/nina.jpg">
+                <img id="img_combinado" src="../images/nina.jpg">
+
+                              
+            
+            </section>
+        </main>
+        <footer>
+            <h6>Elaborado por Itzel G. Aco</h6>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,143 @@
+<html>
+    <head>
+        <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    
+  />
+        <title>Formularios en html </title>
+        <link rel="stylesheet" href="../css/estilos.css" type="text/css">
+    </head>
+    
+    <body>
+        <header>
+            <h1 class="animate__animated animate__flipInY">FORMULARIOS EN HTML</h1><a href="../index.html"><img id="home" src="../images/casa.png"></a>
+        </header>
+        <nav>
+        <ul>
+                <li><a href="formatos.html">Fomatos</a></li>
+                <li><a href="listas.htm">Listas</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="imagenes.html">Imágenes</a></li>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Formulario </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lorem dolor, suscipit sit amet eros non, tempor pellentesque est. Maecenas eu massa a turpis efficitur tincidunt sed posuere ligula. Suspendisse potenti. Donec sollicitudin commodo justo, id tempor dui commodo sed. Duis interdum finibus augue vitae placerat. Nulla tristique pharetra sem, ut auctor neque feugiat non. Sed egestas porttitor est, eu placerat velit semper id.</p>
+                <form action="" method="get"> 
+                    <label for="fnombre">Nombre</label>
+                    <input type="text" id="fnombre" name="fnombre" value="Escribe tu nombre aquí...">
+                    <label for="fapellido">Apellido</label>
+                    <input type="text" id="fapellido" name="fapellido" value="Escribe tu apellido...">
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+            <section>
+                <h2>Formulario de Registro</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lorem dolor, suscipit sit amet eros non, tempor pellentesque est. Maecenas eu massa a turpis efficitur tincidunt sed posuere ligula. Suspendisse potenti. Donec sollicitudin commodo justo, id tempor dui commodo sed. Duis interdum finibus augue vitae placerat. Nulla tristique pharetra sem, ut auctor neque feugiat non. Sed egestas porttitor est, eu placerat velit semper id.</p>
+            <form action="" method="get">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="fnombre" name="fnombre" ><br><br>
+
+                <label for="email">Correo Electrónico</label>
+                <input type="text" id="email" name="email" ><br><br>
+
+                <label for="password">Contraseña</label>
+                <input type="text" id="password" name="password" ><br><br>
+
+                <label for="edad">Edad</label>
+                <input type="text" id="edad" name="edad" min="1" max="100"><br><br>
+
+                <label for="fecha">Fecha de Nacimiento</label>
+                <input type="text" id="fecha" name="fecha"><br><br>
+
+                <label for="genero">Género</label>
+                <select id="genero" name="genero">
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                    <option value="otro">Otro</option>
+                </select><br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+            </section>
+            <section>
+                <h2>Título</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lorem dolor, suscipit sit amet eros non, tempor pellentesque est. Maecenas eu massa a turpis efficitur tincidunt sed posuere ligula. Suspendisse potenti. Donec sollicitudin commodo justo, id tempor dui commodo sed. Duis interdum finibus augue vitae placerat. Nulla tristique pharetra sem, ut auctor neque feugiat non. Sed egestas porttitor est, eu placerat velit semper id.</p>
+                <form method="get" action="">
+                    <label for="fnombre1">Nombre:</label>
+                    <input type="text" id="fnombre1" name="fnombre1" value="">
+                    <label for="genero">Género:</label><br><br>
+                    <label>Masculino</label>
+                    <input type="radio" id="masculino" name="genero" value="masculino">
+                    <label>Femenino</label>
+                    <input type="radio" id="femenino" name="femenino" value="femenino"><br><br>
+                    
+                    
+                    <label for="pais">País:</label >
+                    <select id="pais_ul" name="pais_ul">
+                        <option value="mx">México</option>
+                        <option value="es">España</option>
+                        <option value="us">Estados Unidos</option>
+                        <option value="it">Italia</option>
+                        <option value="co">Colombia</option>
+                        <option value="bo">Bolivia</option>
+                    </select><br><br>
+                     <label for="color_fav">¿Cuál es tu color favorito?</label>
+                    <input type="color"  value="" id="color_fav" name="color_fav"><br><br>
+                    
+                    <label for="">Elige el género musical con el que te identificas:</label><br><br>
+                    <input type="checkbox" id="g-musical" name="g-musical1" value="Jazz">
+                    <label for="id-musical1">Jazz</label>
+                    <input type="checkbox" id="g-musical2" name="g-musical2" value="Rock">
+                    <label for="id-musical">Indie</label>
+                    <input type="checkbox" id="g-musical3" name="g-musical3" value="Indie">
+                    <label for="id-musical">Classic</label>
+                    <input type="checkbox" id="g-musical4" name="g-musical4" value="Clasic">
+                    <label for="id-musical">Hip-Hop</label>
+                    <input type="checkbox" id="g-musical5" name="g-musical5" value="Hip-Hop">
+                    <label for="id-musical">Pop</label>
+                    <input type="checkbox" id="g-musical" name="g-musical6" value="Pop"><br><br>
+                    
+                    <input type="submit" value="Enviar">
+                   
+                
+                </form>
+            </section>
+            <section>
+                <h2>Formulario de contacto</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lorem dolor, suscipit sit amet eros non, tempor pellentesque est. Maecenas eu massa a turpis efficitur tincidunt sed posuere ligula. Suspendisse potenti. Donec sollicitudin commodo justo, id tempor dui commodo sed. Duis interdum finibus augue vitae placerat. Nulla tristique pharetra sem, ut auctor neque feugiat non. Sed egestas porttitor est, eu placerat velit semper id.</p>
+                <body>
+                    <form action="#" method="post">
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" pattern="[0-9]{10}" placeholder="1234567890" required><br><br>
+        
+        <label for="archivo">Subir Archivo:</label>
+        <input type="file" id="archivo" name="archivo"><br><br>
+        
+        <label for="color">Color Favorito:</label>
+        <input type="color" id="color" name="color"><br><br>
+        
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="30" placeholder="Escribe tu mensaje aquí..."></textarea><br><br>
+        
+        <label for="hora">Hora de Contacto:</label>
+        <input type="time" id="hora" name="hora"><br><br>
+        
+        <label for="acepto">Acepto los términos y condiciones:</label>
+        <input type="checkbox" id="acepto" name="acepto" required><br><br>
+        
+        <input type="submit" value="Enviar">
+                    </form>
+            </section>
+        </main>
+        <footer>
+            <h6>Elaborado por Itzel G. Aco</h6>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,224 @@
+<html>
+    <head>
+        <title>Listas de html</title>
+        <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+        
+        <style type="text/css">
+            @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Oswald:wght@200..700&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+            *{
+                margin: auto;
+                padding: auto;
+                box-sizing: border-box;
+            }
+            header, nav, main, footer{
+                margin-top: 0;
+                margin-bottom: 0;
+                margin-left: auto;
+                margin-right: auto;
+                width: 100%;
+            }
+            p,ul, ol{
+                text-align: justify;
+            }
+            
+            header {
+                
+                height:auto;
+                background-color: forestgreen;
+                color: palegreen;
+                padding: 50px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            nav{
+                /*width: 1200px;*/
+                height: auto;
+                background-color: lightgreen;
+                padding: 50px;
+            }
+            nav ul li a{
+                text-decoration: none;
+            }
+            main{
+                /*width: 1200px;*/
+                height: 1580px;
+                background-color: seagreen;
+                padding: 50px;
+                text-align: center;
+            }
+            footer{
+                /*width: 1200px;*/
+                height: 50px;
+                background-color: forestgreen;
+                color: palegreen;
+                padding: 50px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+            }
+            section{
+                width: 40%;
+                min-width: 380px;
+                height: 650px;
+                background-color: yellowgreen;
+                margin-bottom: 20px;
+                margin-left: 20px;
+                margin-right: 20px;
+                padding: 50px;
+                display: inline-block;
+                overflow-y: auto;
+                font-family: "Montserrat", serif;
+                font-size: 16px;
+                text-align: justify;
+            }
+            header, h1{
+                text-align: center;
+            }
+            nav ul{
+                text-align: center;
+            }
+            nav ul li{
+                width: auto;
+                height: auto;
+                background-color: greenyellow;
+                list-style-type: none;
+                margin-bottom: 10px;
+                display: inline-block;
+                padding: 10px;
+            }
+            ul li{
+                list-style-type: square;
+            }
+            ol li ul li{
+                list-style-type: circle;
+            }
+            ol li{
+                list-style-type: upper-roman;
+            }
+             a:link{
+                color: lemonchiffon; 
+            }
+            a:active{
+                color: darkslategrey;
+            }
+            a:hover{
+                color: dodgerblue
+            }
+            #box_listamixta{
+                height: 750px;
+            }
+            h1{
+                 font-family: "Oswald", serif;
+                font-size: 48px;
+            }
+            h2{
+                font-family: "Oswald", serif;
+            }
+            .navegador{
+                font-family: "Montserrat", serif;
+                font-size: 18px;
+            }
+            #home{
+                width: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <header> 
+            <h1 class="animate__animated animate__flipInY">LISTAS DE HTML </h1><a href="../index.html"><img id="home" src="../images/casa.png"></a>
+        </header>
+        <nav>
+        <!--Menú de la página web-->
+            <ul class="navegador">
+                <li><a href="formatos.html">Fomatos</a></li>
+                <li><a href="listas.htm">Listas</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="imagenes.html">Imágenes</a></li>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2 class="animate__animated animate__fadeInLeft animate__delay-1s animated__slower">Listas desordenadas</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis augue sed ante maximus, sit amet tincidunt lorem tristique. Nullam ac lectus ante. Nullam consectetur magna in nibh facilisis malesuada. Fusce non augue lacinia, rhoncus augue a, tempus ante. Vivamus vel laoreet diam. Cras condimentum arcu eu feugiat elementum. Quisque malesuada condimentum posuere. Nunc laoreet sem id lacinia feugiat. Suspendisse egestas nisl est, nec varius lorem dictum sed. Suspendisse potenti. Aliquam dolor libero, scelerisque et eros in, convallis luctus dolor. Suspendisse potenti. Duis euismod gravida ex. Aenean semper a purus id hendrerit. Nunc quis magna et sem auctor tristique. Etiam erat sapien, ornare vitae dictum vel, luctus ut libero.</p>
+                    <ul>
+                        <li>Argentina</li> 
+                        <li>Bolivia</li> 
+                        <li>Colombia</li> 
+                        <li>Dinamarca</li> 
+                        <li>España</li> 
+                        <li>Francia</li> 
+                        <li>Guatemala</li> 
+                        <li>México</li> 
+                        <li>Nigeria</li> 
+                        <li>Puerto Rico</li> 
+                        <li>Rusia</li> 
+                        <li>Sudáfrica</li> 
+                        <li>Turquía</li> 
+                    </ul>
+            </section>
+            <section>
+                <h2 class="animate__animated animate__fadeInLeft animate__delay-2s animated__slower">Listas ordenadas</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis augue sed ante maximus, sit amet tincidunt lorem tristique. Nullam ac lectus ante. Nullam consectetur magna in nibh facilisis malesuada. Fusce non augue lacinia, rhoncus augue a, tempus ante. Vivamus vel laoreet diam. Cras condimentum arcu eu feugiat elementum. Quisque malesuada condimentum posuere. Nunc laoreet sem id lacinia feugiat. Suspendisse egestas nisl est, nec varius lorem dictum sed. Suspendisse potenti. Aliquam dolor libero, scelerisque et eros in, convallis luctus dolor. Suspendisse potenti. Duis euismod gravida ex. Aenean semper a purus id hendrerit. Nunc quis magna et sem auctor tristique. Etiam erat sapien, ornare vitae dictum vel, luctus ut libero.</p>
+                    <ol>
+                        <li>Aguascalientes</li>
+                        <li>Baja California</li>
+                        <li>Colima</li>
+                        <li>Durango</li>
+                        <li>Estado de México</li>
+                        <li>Guanajuato</li>
+                        <li>Hidalgo</li>
+                        <li>Jalisco</li>
+                        <li>Michoacan</li>
+                        <li>Oaxaca</li>
+                        <li>Puebla</li>
+                        <li>San Luis Potosí</li>
+                        <li>Quintana Roo</li>
+                    </ol>
+            </section>
+            <section id="box_listamixta">
+                <h2 class="animate__animated animate__fadeInLeft animate__delay-3s animated__slower">Listas mixtas</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis augue sed ante maximus, sit amet tincidunt lorem tristique. Nullam ac lectus ante. Nullam consectetur magna in nibh facilisis malesuada. Fusce non augue lacinia, rhoncus augue a, tempus ante. Vivamus vel laoreet diam. Cras condimentum arcu eu feugiat elementum. Quisque malesuada condimentum posuere. Nunc laoreet sem id lacinia feugiat. Suspendisse egestas nisl est, nec varius lorem dictum sed. Suspendisse potenti. Aliquam dolor libero, scelerisque et eros in, convallis luctus dolor. Suspendisse potenti. Duis euismod gravida ex. Aenean semper a purus id hendrerit. Nunc quis magna et sem auctor tristique. Etiam erat sapien, ornare vitae dictum vel, luctus ut libero.</p>
+                    <ol>
+                        <li style="list-style-type: lower-alpha"> Veracruz </li>
+                            <ul>
+                                <li>Xalapa</li>
+                                <li>Papantla</li>
+                                <li>Orizaba</li>
+                                <li>Tlacotalpan</li>
+                                <li>Alvarado</li>
+                            </ul>
+                        <li>Queretaro</li>
+                        <li>Sonora</li>
+                        <li style="list-style-type: lower-alpha"> Puebla </li>
+                            <ul>
+                                <li>Cholula</li>
+                                <li>Atlixco</li>
+                                <li>Acajete</li>
+                                <li>Amozoc</li>
+                                <li>Calpan</li>
+                            </ul>
+                        <li>Zacatecas</li>
+                        <li>Nuevo León</li>
+                        <li style="list-style-type: lower-alpha"> Chihuaha </li>
+                            <ul>
+                                <li>Camargo</li>
+                                <li>Juárez</li>
+                                <li>Parral</li>
+                        </ul>   
+                    </ol>
+            </section>
+        </main>
+    </body>
+    <footer>
+        <h6>Elaborado por Itzel G. Aco</h6>
+    </footer>
+</html>
+            
